@@ -1,0 +1,18 @@
+.page-section-articletile {
+    justify-content: center;
+
+    &__item {
+        width: calc(100% / 3 - 1.2em);
+        margin-right: 1.2em;
+        margin-bottom: 3.8em;
+
+        &--headline {
+            @extend %whiteclass; 
+        }
+
+        &--readmore {
+            @extend %whiteclass; 
+        }
+
+    }
+}

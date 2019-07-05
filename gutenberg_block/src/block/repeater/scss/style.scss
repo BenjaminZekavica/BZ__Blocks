@@ -1,0 +1,33 @@
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-section {
+    &-slider {
+
+        &-item {
+            background-color: $gray;
+            padding: 14px;
+
+            &__buttongroup {
+                display: flex;
+                justify-content: flex-end;
+                
+                button {
+                    margin-right: 5px;
+                }
+            }
+
+            &__infotext {
+                &--desc {
+                    p {
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

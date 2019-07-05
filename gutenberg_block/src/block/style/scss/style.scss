@@ -1,0 +1,26 @@
+/**
+ * Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+ .wp-block-bzblocks-styling {
+      text-align: center;
+      background-color: $green; 
+      
+      padding: $global_inner_padding;
+      margin-bottom: $global_margin; 
+
+      &.is-style {
+   
+         &-bg-orange {
+            background-color: $orange;
+         }
+   
+         &-bg-blue {
+            background-color: $blue;
+            color: $white;
+         }
+   
+      }
+ }
